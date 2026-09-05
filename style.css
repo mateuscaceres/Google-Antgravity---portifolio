@@ -1,0 +1,74 @@
+/* Imports and Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #f8f9fa; /* Fundo base suave */
+}
+
+/* Typography Enhancements */
+.text-gradient {
+    background: linear-gradient(90deg, #0d6efd, #6610f2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Header/Hero Section */
+.hero-section {
+    min-height: 50vh;
+    background-color: #ffffff;
+    border-bottom: 1px solid #eaeaea;
+}
+
+/* Badges / Skills */
+.skill-badge {
+    background-color: #e9ecef;
+    color: #495057;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+}
+
+.skill-badge:hover {
+    background-color: #ffffff;
+    border-color: #0d6efd;
+    color: #0d6efd;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(13, 110, 253, 0.15);
+}
+
+/* Project Cards */
+.project-card {
+    border-radius: 12px;
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
+    border: 1px solid rgba(0,0,0,0.05) !important;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1) !important;
+}
+
+/* Buttons */
+.btn-outline-primary {
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+    transform: scale(1.05);
+}
+
+/* Footer Icons */
+.social-icon {
+    transition: color 0.3s, transform 0.3s;
+    display: inline-block;
+}
+
+.social-icon:hover {
+    color: #0d6efd !important;
+    transform: scale(1.2) translateY(-2px);
+}
